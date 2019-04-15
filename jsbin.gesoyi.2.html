@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2019 by Shadowking1235 (http://jsbin.com/gesoyi/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+<script id="jsbin-javascript">
+/****Homework Assignment #3: Statements and Operators
+//Details:
+Let's look at a popular logical argument (a syllogism)
+
+All men are mortal
+Socrates is a man.
+Therefore, socrates is mortal.
+
+Using "if statements" and any other logical operators and data-types 
+you see fit, recreate this logical argument. 
+Your code should make clear that "socrates" is part of a collection of items referred to as "men", and that all members of this collection are mortal. You should also then demonstrate that since Socrates is part of this collection, it follows that he is mortal as well.
+Extra Credit:
+
+Got the hang of creating a logical argument? Want to try another one? Try this one as well:
+
+This cake is either vanilla or chocolate.
+This cake is not chocolate.
+Therefore, this cake is vanilla.
+****/
+
+
+var objectMen = 
+ {
+   man1: "Johnson",
+   man2: "paul",
+   man3: "socrate",  
+}
+console.log(objectMen)
+console.log(objectMen.man3);
+
+var socrate = "Socrate";
+var allMenAreMortal = true;
+var SocrateIsAMen = true;
+var SocrateIsMortal = true;
+
+if(SocrateIsAMen === SocrateIsMortal)
+{
+	console.log('All men are mortal');
+	console.log('Socrate is a man');
+	console.log('Socrate is mortal');
+  
+}
+
+else if(socrate === SocrateIsMortal )
+{
+	console.log('All men are mortal');
+	console.log('Socrate is not  man');
+}
+  else
+{
+	console.log('All men are not mortal');
+	console.log('Socrate is not a man');
+	console.log('Socrate is not mortal');
+}
+
+const Vanilla = true;
+const Chocolate = true;
+
+if(Vanilla || isChocolate)
+{
+	console.log('This cake is either vanilla or chocolate');
+	if
+      (Chocolate === true)
+    {
+		console.log('This cake is not chocolate');
+		console.log('Therefore,this cake is vanilla');
+	}
+}
+
+
+</script>
+</body>
+</html>
